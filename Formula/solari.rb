@@ -1,28 +1,28 @@
 class Solari < Formula
   desc "SOLARI creator and brand intelligence from your terminal"
   homepage "https://solari.brandazine.com"
-  version "1.0.0-alpha.19"
+  version "1.0.0-alpha.20"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.19/solari-darwin-arm64"
-      sha256 "f86e0e1af272e5b6e6d13938de18949da82b358db6d8da9e8030fa6f6884893d"
+      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.20/solari-darwin-arm64"
+      sha256 "56a8d903a0e2d45b6105c14556c9262e94848743d1e6d277c8cb61d839c5d7ad"
     end
     on_intel do
-      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.19/solari-darwin-x64"
-      sha256 "175a2eb787e67952672670707bd0f7ec69b3cb3eee23af6979fb8ad42a78f940"
+      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.20/solari-darwin-x64"
+      sha256 "118965751a72fa7a8f31e3cd9bab07a061a142c4114e428a35979a9bdab45d94"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.19/solari-linux-arm64"
-      sha256 "7e34412bbfdd9089ba0991513342d3a8e3e81c16c3563b7fcb709bbced485aad"
+      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.20/solari-linux-arm64"
+      sha256 "5dfebb7986fd6b3307480ec7fe5a1bf33f64256e1c9c9f83a408cfad2031dc68"
     end
     on_intel do
-      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.19/solari-linux-x64"
-      sha256 "853735ab63d1ce465b9d23ca6b2b2ecc334c4111d8bcaac4927e7fb7c954f6ef"
+      url "https://github.com/brandazine/solari/releases/download/v1.0.0-alpha.20/solari-linux-x64"
+      sha256 "0dd92e3d463787926d741b87813277dbd89034456f98e8adbf4b0969142495bf"
     end
   end
 
